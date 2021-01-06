@@ -7,6 +7,8 @@ module.exports = {
   cooldown: 3,
   aliases: [""],
   description: "Newmember Comming",
+    execute(message) {
+    let commands = message.client.commands.array();
 
 
 
