@@ -2,7 +2,7 @@
   "YOUTUBE_API_KEY": "AIzaSyCCC9IlDfEh23ZMTpHh1siknANdWruUsrM",
   "SOUNDCLOUD_CLIENT_ID": "yLDMxXMZsSiBSpUG5psrlryn56TID1wS",
   "MAX_PLAYLIST_SIZE": 999,
-  "PREFIX": SalamBye,
+  "PREFIX": "salambye",
   "PRUNING": false,
   "DEFAULT_VOLUME": 100
 }
