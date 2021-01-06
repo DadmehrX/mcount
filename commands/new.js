@@ -8,14 +8,14 @@ module.exports = {
   aliases: [""],
   description: "Newmember Comming",
     execute(message) {
-    let commands = message.client.commands.array();
+        if (message.content.startsWith(prefix)) {
+        let args = message.content.slice(prefix.length).split(" "),
+        cmd = args.shift();
 
 
 
-client.on("message", message => {
-  if (message.content.startsWith(prefix)) {
-    let args = message.content.slice(prefix.length).split(" "),
-      cmd = args.shift();
+
+
 
     if (cmd === "help") {
       message.author.send("لطفا منتظر بمانید تا ادمین مربوطه رسیدگی کند");
