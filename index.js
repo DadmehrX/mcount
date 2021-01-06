@@ -4,7 +4,8 @@
 const { Client, Collection } = require("discord.js");
 const { readdirSync } = require("fs");
 const { join } = require("path");
-const { TOKEN, PREFIX } = require("./util/EvobotUtil");
+const { TOKEN } = require("./util/EvobotUtil");
+  prefix = "!";
 
 const client = new Client({ disableMentions: "everyone" });
 
