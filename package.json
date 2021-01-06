@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "array-move": "^3.0.1",
+    "discord.js": "^12.5.1",
+    "erit-ytdl": "^0.1.2",
+    "lyrics-finder": "^21.4.0",
+    "opusscript": "^0.0.7",
+    "simple-youtube-api": "^5.2.1",
+    "soundcloud-downloader": "^0.2.2",
+    "string-progressbar": "^1.0.1",
+    "ytdl-core": "^4.4.0"
+  }
+}
