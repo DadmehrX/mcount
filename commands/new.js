@@ -2,11 +2,6 @@ const Discord = require("discord.js");
 const config = require("./config.json");
 let client = new Discord.Client(),
 
-client.on("message", message => {
-  if (message.content.startsWith(prefix)) {
-    let args = message.content.slice(prefix.length).split(" "),
-      cmd = args.shift();
-
 
 
     if (cmd === "help") {
