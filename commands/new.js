@@ -8,12 +8,14 @@ module.exports = {
   aliases: [""],
   description: "Newmember Comming",
     execute(message) {
-        if (message.content.startsWith(prefix)) {
-        let args = message.content.slice(prefix.length).split(" "),
-        cmd = args.shift();
+    let commands = message.client.commands.array();
 
 
 
+client.on("message", message => {
+  if (message.content.startsWith(prefix)) {
+    let args = message.content.slice(prefix.length).split(" "),
+      cmd = args.shift();
 
 
 
